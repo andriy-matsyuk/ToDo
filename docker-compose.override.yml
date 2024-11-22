@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  todo.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8100
+    ports:
+      - 7100:8100
